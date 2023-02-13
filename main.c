@@ -5,111 +5,159 @@ int main() {
 
   do {
     printf("\nEscolha uma opcao:\n");
-    printf("1 - Primeira opcao\n");
-    printf("2 - Segunda opcao\n");
-    printf("3 - Terceira opcao\n");
+    printf("1 - 1º Dia\n");
+    printf("2 - 2º Dia\n");
+    printf("3 - 3º Dia\n");
+    printf("4 - 4º Dia\n");
+    printf("5 - 5º Dia\n");
+    printf("6 - 6º Dia\n");
+    printf("7 - 7º Dia\n");
+    printf("8 - 8º Dia\n");
+    printf("9 - 9º Dia\n");
+    printf("10 - 10º Dia\n");
+    printf("11 - 11º Dia\n");
+    printf("12 - 12º Dia\n");
+    printf("13 - 13º Dia\n");
+    printf("14 - 14º Dia\n");
+    printf("15 - 15º Dia\n");
+    printf("16 - 16º Dia\n");
+    printf("17 - 17º Dia\n");
+    printf("18 - 18º Dia\n");
+    printf("19 - 19º Dia\n");
+    printf("20 - 20º Dia\n");
+    printf("21 - 21º Dia\n");
+    printf("22 - 22º Dia\n");
+    printf("23 - 23º Dia\n");
+    printf("24 - 24º Dia\n");
+    printf("25 - 25º Dia\n");
+    printf("26 - 26º Dia\n");
+    printf("27 - 27º Dia\n");
+    printf("28 - 28º Dia\n");
+    printf("29 - 29º Dia\n");
+    printf("30 - 30º Dia\n");
+    printf("31 - 31º Dia\n");
     printf("0 - Sair\n");
     scanf("%d", & opcaoPrincipal);
 
-    switch (opcaoPrincipal) {
-    case 1: {
-      int opcaoSubmenu;
-      do {
-        printf("\nEscolha uma opcao (1-3, 0 para sair):\n");
-        printf("1 - Subopcao A\n");
-        printf("2 - Subopcao B\n");
-        printf("3 - Subopcao C\n");
-        printf("0 - Voltar\n");
-        scanf("%d", & opcaoSubmenu);
+    if (opcaoPrincipal == 1) {
+      system("cls");
+      int qntDiaria = opcaoPrincipal;
+      int vlrDiaria = 100 * 31;
+      printf("Valor total da estadia = %d", vlrDiaria);
+      printf("\n");
+      system("pause");
+    } else if (opcaoPrincipal == 2) {
+      system("cls");
+      int qntDiaria = opcaoPrincipal;
+      int vlrDiaria = (100 + 10) * 31;
+      printf("Valor total da estadia = %d", vlrDiaria);
+      printf("\n");
+      system("pause");
+    } else if (opcaoPrincipal == 2) {
+      system("cls");
+      int qntDiaria = opcaoPrincipal;
+      int vlrDiaria = (100 + 20) * 31;
+      printf("Valor total da estadia = %d", vlrDiaria);
+      printf("\n");
+      system("pause");
+    } else if (opcaoPrincipal == 3) {
+      system("cls");
+      int qntDiaria = opcaoPrincipal;
+      int vlrDiaria = (100 + 30) * 31;
+      printf("Valor total da estadia = %d", vlrDiaria);
+      printf("\n");
+      system("pause");
+    } else if (opcaoPrincipal == 4) {
+      system("cls");
+      int qntDiaria = opcaoPrincipal;
+      int vlrDiaria = (100 + 40) * 31;
+      printf("Valor total da estadia = %d", vlrDiaria);
+      printf("\n");
+      system("pause");
+    } else if (opcaoPrincipal == 5) {
+      system("cls");
+      int qntDiaria = opcaoPrincipal;
+      int vlrDiaria = (100 + 50) * 31;
+      printf("Valor total da estadia = %d", vlrDiaria);
+      printf("\n");
+      system("pause");
+    } else if (opcaoPrincipal == 6) {
+      system("cls");
+      int qntDiaria = opcaoPrincipal;
+      int vlrDiaria = (100 + 60) * 31;
+      printf("Valor total da estadia = %d", vlrDiaria);
+      printf("\n");
+      system("pause");
+    } else if (opcaoPrincipal == 7) {
+      system("cls");
+      int qntDiaria = opcaoPrincipal;
+      int vlrDiaria = (100 + 70) * 31;
+      printf("Valor total da estadia = %d", vlrDiaria);
+      printf("\n");
+      system("pause");
+    } else if (opcaoPrincipal == 8) {
+      system("cls");
+      int qntDiaria = opcaoPrincipal;
+      int vlrDiaria = (100 + 80) * 31;
+      printf("Valor total da estadia = %d", vlrDiaria);
+      printf("\n");
+      system("pause");
+    } else if (opcaoPrincipal == 9) {
+      system("cls");
+      int qntDiaria = opcaoPrincipal;
+      int vlrDiaria = (100 + 90) * 31;
+      printf("Valor total da estadia = %d", vlrDiaria);
+      printf("\n");
+      system("pause");
+    } else if (opcaoPrincipal == 10) {
+      system("cls");
+      int qntDiaria = opcaoPrincipal;
+      int vlrDiaria = (100 + 100) * 31;
+      printf("Valor total da estadia = %d", vlrDiaria);
+      printf("\n");
+      system("pause");
+    } else if (opcaoPrincipal == 11) {
+      system("cls");
+      int qntDiaria = opcaoPrincipal;
+      int vlrDiaria = (100 + 110) * 31;
+      printf("Valor total da estadia = %d", vlrDiaria);
+      printf("\n");
+      system("pause");
+    } else if (opcaoPrincipal == 12) {
+      system("cls");
+      int qntDiaria = opcaoPrincipal;
+      int vlrDiaria = (100 + 120) * 31;
+      printf("Valor total da estadia = %d", vlrDiaria);
+      printf("\n");
+      system("pause");
+    } else if (opcaoPrincipal == 13) {
+      system("cls");
+      int qntDiaria = opcaoPrincipal;
+      int vlrDiaria = (100 + 130) * 31;
+      printf("Valor total da estadia = %d", vlrDiaria);
+      printf("\n");
+      system("pause");
+    } else if (opcaoPrincipal == 14) {
+      system("cls");
+      int qntDiaria = opcaoPrincipal;
+      int vlrDiaria = (100 + 140) * 31;
+      printf("Valor total da estadia = %d", vlrDiaria);
+      printf("\n");
+      system("pause");
+    } else if (opcaoPrincipal == 15) {
+      system("cls");
+      int qntDiaria = opcaoPrincipal;
+      int vlrDiaria = (100 + 150) * 31;
+      printf("Valor total da estadia = %d", vlrDiaria);
+    } else if (opcaoPrincipal > 15 && opcaoPrincipal < 31) {
+      system("cls");
+      int qntDiaria = opcaoPrincipal;
+      int vlrDiaria = (100 + 150) * 31;
+      printf("Valor total da estadia = %d", vlrDiaria);
+    }
 
-        switch (opcaoSubmenu) {
-        case 1:
-          printf("\nVoce escolheu a subopcao A\n");
-          break;
-        case 2:
-          printf("\nVoce escolheu a subopcao B\n");
-          break;
-        case 3:
-          printf("\nVoce escolheu a subopcao C\n");
-          break;
-        case 0:
-          printf("\nVoltando...\n");
-          break;
-        default:
-          printf("\nOpcao Invalida\n");
-          break;
-        }
-      } while (opcaoSubmenu != 0);
-      break;
-    }
-    case 2: {
-      int opcaoSubmenu;
-      do {
-        printf("\nEscolha uma opcao (1-3, 0 para sair):\n");
-        printf("1 - Subopcao D\n");
-        printf("2 - Subopcao E\n");
-        printf("3 - Subopcao F\n");
-        printf("0 - Voltar\n");
-        scanf("%d", & opcaoSubmenu);
-
-        switch (opcaoSubmenu) {
-        case 1:
-          printf("\nVoce escolheu a subopcao D\n");
-          break;
-        case 2:
-          printf("\nVoce escolheu a subopcao E\n");
-          break;
-        case 3:
-          printf("\nVoce escolheu a subopcao F\n");
-          break;
-        case 0:
-          printf("\nVoltando...\n");
-          break;
-        default:
-          printf("\nOpcao Invalida\n");
-          break;
-        }
-      } while (opcaoSubmenu != 0);
-      break;
-    }
-    case 3: {
-      int opcaoSubmenu;
-      do {
-        printf("\nEscolha uma opcao (1-3, 0 para sair):\n");
-        printf("1 - Subopcao G\n");
-        printf("2 - Subopcao H\n");
-        printf("3 - Subopcao I\n");
-        printf("0 - Voltar\n");
-        scanf("%d", & opcaoSubmenu);
-
-        switch (opcaoSubmenu) {
-        case 1:
-          printf("\nVoce escolheu a subopcao G\n");
-          break;
-        case 2:
-          printf("\nVoce escolheu a subopcao H\n");
-          break;
-        case 3:
-          printf("\nVoce escolheu a subopcao I\n");
-          break;
-        case 0:
-          printf("\nVoltando...\n");
-          break;
-        default:
-          printf("\nOpcao Invalida\n");
-          break;
-        }
-      } while (opcaoSubmenu != 0);
-      break;
-    }
-    case 0:
-      printf("\nSaindo...\n");
-      break;
-    default:
-      printf("\nOpcao Invalida\n");
-      break;
-    }
-  } while (opcaoPrincipal != 0);
+  }
+  while (opcaoPrincipal != 0);
 
   return 0;
 }
